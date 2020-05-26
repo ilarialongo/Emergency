@@ -11,7 +11,6 @@ public class TestSimulator {
 		sim.setT_ARRIVAL(Duration.ofMinutes(3));
 		sim.init();
 		sim.run();
-		
 		System.out.println("** STATISTICHE **") ;
 		System.out.format("Studi medici: %d\n", sim.getNS());
 		System.out.format("Pazienti:     %d\n", sim.getPazientiTot());
